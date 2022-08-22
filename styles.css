@@ -269,7 +269,7 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #ff0060;
+  color: #000c19;
   text-decoration: none; }
   a:hover, a:focus {
     color: #b30043;
@@ -458,7 +458,7 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #ff0060; }
+  color: #000c19; }
 
 a.text-primary:hover,
 a.text-primary:focus {
@@ -496,7 +496,7 @@ a.text-danger:focus {
   color: #fff; }
 
 .bg-primary {
-  background-color: #ff0060; }
+  background-color: #000c19; }
 
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -2064,8 +2064,8 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ff0060;
-  border-color: #ff0060; }
+  background-color: #000c19;
+  border-color: #000c19; }
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
     background-color: #cc004d;
@@ -2093,10 +2093,10 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-primary:hover,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary.focus {
-    background-color: #ff0060;
-    border-color: #ff0060; }
+    background-color: #000c19;
+    border-color: #000c19; }
   .btn-primary .badge {
-    color: #ff0060;
+    color: #000c19;
     background-color: #fff; }
 
 .btn-success {
@@ -2248,7 +2248,7 @@ fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #ff0060;
+  color: #000c19;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
@@ -2392,7 +2392,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #ff0060; }
+  background-color: #000c19; }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   color: #777777; }
@@ -2760,7 +2760,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #ff0060; }
+    border-color: #000c19; }
   .nav .nav-divider {
     height: 1px;
     margin: 11.5px 0;
@@ -2796,7 +2796,7 @@ tbody.collapse.in {
     margin-left: 2px; }
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #ff0060; }
+    background-color: #000c19; }
 
 .nav-stacked > li {
   float: none; }
@@ -3279,7 +3279,7 @@ a.label:hover, a.label:focus {
     background-color: #5e5e5e; }
 
 .label-primary {
-  background-color: #ff0060; }
+  background-color: #000c19; }
   .label-primary[href]:hover, .label-primary[href]:focus {
     background-color: #cc004d; }
 
@@ -3327,7 +3327,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   .list-group-item.active > .badge,
   .nav-pills > .active > a > .badge {
-    color: #ff0060;
+    color: #000c19;
     background-color: #fff; }
   .list-group-item > .badge {
     float: right; }
@@ -3855,9 +3855,9 @@ button.close {
     display: none !important; } }
 
 body {
-  background-image: -webkit-linear-gradient(top, #ff0060 0%, #ff6975 100%);
-  background-image: -o-linear-gradient(top, #ff0060 0%, #ff6975 100%);
-  background-image: linear-gradient(to bottom, #ff0060 0%, #ff6975 100%);
+  background-image: -webkit-linear-gradient(top, #000c19 0%, #ff6975 100%);
+  background-image: -o-linear-gradient(top, #000c19 0%, #ff6975 100%);
+  background-image: linear-gradient(to bottom, #000c19 0%, #ff6975 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF0060', endColorstr='#FFFF6975', GradientType=0); }
   body.white {
@@ -3893,7 +3893,7 @@ body {
   left: 0;
   right: 0;
   bottom: 30%;
-  box-shadow: inset 0 -40px 60px 10px #ff0060; }
+  box-shadow: inset 0 -40px 60px 10px #000c19; }
 
 .card {
   border-radius: .25rem;
@@ -3937,16 +3937,16 @@ body {
     background-position: center center; }
 
 .btn-primary {
-  background-image: -webkit-linear-gradient(left, #FF6975 0%, #FF0060 100%);
-  background-image: -o-linear-gradient(left, #FF6975 0%, #FF0060 100%);
-  background-image: linear-gradient(to right, #FF6975 0%, #FF0060 100%);
+  background-image: -webkit-linear-gradient(left, #FF6975 0%, #000c19 100%);
+  background-image: -o-linear-gradient(left, #FF6975 0%, #000c19 100%);
+  background-image: linear-gradient(to right, #FF6975 0%, #000c19 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF6975', endColorstr='#FFFF0060', GradientType=1);
   background-size: 200% auto; }
   .btn-primary:hover {
-    background-image: -webkit-linear-gradient(left, #FF6975 0%, #FF0060 100%);
-    background-image: -o-linear-gradient(left, #FF6975 0%, #FF0060 100%);
-    background-image: linear-gradient(to right, #FF6975 0%, #FF0060 100%);
+    background-image: -webkit-linear-gradient(left, #FF6975 0%, #000c19 100%);
+    background-image: -o-linear-gradient(left, #FF6975 0%, #000c19 100%);
+    background-image: linear-gradient(to right, #FF6975 0%, #000c19 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFF6975', endColorstr='#FFFF0060', GradientType=1);
     background-position: center center; }
@@ -4005,7 +4005,7 @@ h5, .h5 {
   h5 a, .h5 a {
     color: #000; }
     h5 a:hover, .h5 a:hover {
-      color: #ff0060;
+      color: #000c19;
       text-decoration: none; }
   h5 small, .h5 small {
     font-size: 1em; }
@@ -4017,15 +4017,15 @@ h5, .h5 {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
   .social-round-icon:hover {
-    background-color: #ff0060;
+    background-color: #000c19;
     color: white;
-    border-color: #ff0060; }
+    border-color: #000c19; }
   .social-round-icon.white-round-icon {
     border: 1px solid #FFF;
     color: #FFF; }
     .social-round-icon.white-round-icon:hover {
       background-color: #FFF;
-      color: #ff0060;
+      color: #000c19;
       border-color: #FFF; }
 
 .fa-icon {
@@ -4051,12 +4051,12 @@ h5, .h5 {
   transition: all 0.2s linear;
   color: #000; }
   .social-buttons a:hover {
-    color: #ff0060;
+    color: #000c19;
     text-decoration: none; }
     .social-buttons a:hover .social-round-icon {
-      background-color: #ff0060;
+      background-color: #000c19;
       color: white;
-      border-color: #ff0060; }
+      border-color: #000c19; }
 
 .carousel-caption {
   position: relative;
